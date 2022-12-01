@@ -78,6 +78,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   
   #gem "webdrive"
+  gem 'simplecov', require: false
   gem "capybara"
   gem "selenium-webdriver"
   
